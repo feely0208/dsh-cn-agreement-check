@@ -1,0 +1,4 @@
+# @deepwhale-cn/dsh-cn-agreement-check 的组合层
+- insert:
+    - id: cn-agreement-check
+      name: '@deepwhale-cn/dsh-cn-agreement-check'
