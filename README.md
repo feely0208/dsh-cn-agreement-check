@@ -27,3 +27,11 @@ npx @deepwhale-cn/dsh-cn-agreement-check --html r.html # HTML 报告
 
 - 只扫 .md/.txt/.html 文本（协议在图片里或需要登录才能看的，工具扫不到）
 - 命中 ≠ 违规，是提示逐条核对；法条出处见 `--list-rules`
+
+## 安装（DSH）
+
+```bash
+dsh plugin --profile web add @deepwhale-cn/dsh-cn-agreement-check
+```
+
+也可以 `npm i @deepwhale-cn/dsh-cn-agreement-check`，或从本仓库直接 `dsh plugin install ./`。
